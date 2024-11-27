@@ -30,6 +30,7 @@ body{
 .topbar {
     width: 100%;
     top: 0px;
+    left: -0.5px;
     height: 47px;
     margin: auto;
     position: absolute;
