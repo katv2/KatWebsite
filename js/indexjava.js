@@ -19,6 +19,3 @@ themeSwitch.addEventListener("click", () => {
     darkmode !== "active" ? enableDarkmode() : disableDarkmode()
 })
 /* idk */
-if (window.location.pathname === '/index.html') {
-    history.replaceState(null, '', '/home');
-}
