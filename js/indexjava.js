@@ -1,3 +1,4 @@
+/* toggle darkmode bla bla bla */
 let darkmode = localStorage.getItem('darkmode')
 const themeSwitch = document.getElementById('theme-switch')
 
@@ -17,3 +18,7 @@ themeSwitch.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode')
     darkmode !== "active" ? enableDarkmode() : disableDarkmode()
 })
+/* idk */
+if (window.location.pathname === '/index.html') {
+    history.replaceState(null, '', '/home');
+}

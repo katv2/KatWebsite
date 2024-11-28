@@ -17,3 +17,6 @@ themeSwitch.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode')
     darkmode !== "active" ? enableDarkmode() : disableDarkmode()
 })
+if (window.location.pathname === '/catphotos.html') {
+    history.replaceState(null, '', '/catphotos');
+}
