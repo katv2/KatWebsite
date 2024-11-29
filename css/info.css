@@ -41,6 +41,7 @@ body{
 .page2{
     right: 80px;
     width: 70px;
+    top: 10px;
     height: 25px;
     z-index: 2;
     margin: auto;
@@ -54,6 +55,7 @@ body{
 .page3{
     right: 20px;
     width: 70px;
+    top: 10px;
     height: 25px;
     z-index: 2;
     margin: auto;
@@ -93,7 +95,7 @@ body{
 h1 {
     position: relative;
     width: 300px;
-    top:-70px;
+    top:-40px;
     left: 50%;
     transform: translateX(-115px);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
