@@ -102,3 +102,33 @@ h1 {
     font-size: 45px;
     color: var(--text-color-inactive);
 }
+h2 {
+    position: absolute;
+    width: 1000px;
+    top:20px;
+    left: 50%;
+    transform: translateX(-35%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: var(--text-color-inactive);
+}
+h3 {
+    position: absolute;
+    width: 500px;
+    top:60px;
+    left: 50%;
+    transform: translateX(-35%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: var(--text-color-inactive);
+}
+h4 {
+    position: absolute;
+    width: 300px;
+    top:100px;
+    left: 50%;
+    transform: translateX(-38%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: var(--text-color-inactive);
+}
