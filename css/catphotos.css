@@ -102,3 +102,31 @@ h1 {
     font-size: 45px;
     color: var(--text-color-inactive);
 }
+.photo1{
+    position:absolute;
+    width: 250px;
+    height: 250px;
+    top: 80px;
+    right: 50px;
+    border: 5px solid black;
+    background-color: rgb(48, 48, 48);
+}
+.photo2{
+    position:absolute;
+    width: 250px;
+    height: 250px;
+    top: 80px;
+    left: 50px;
+    border: 5px solid black;
+    background-color: rgb(48, 48, 48);
+}
+.photo3{
+    position:absolute;
+    width: 250px;
+    height: 250px;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid black;
+    background-color: rgb(48, 48, 48);
+}
