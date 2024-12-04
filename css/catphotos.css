@@ -1,6 +1,6 @@
 :root{
-    --base-color: rgb(244, 234, 191);
-    --top-bar: rgb(237, 222, 163);
+    --base-color: #B3C8CF;
+    --top-bar: #89A8B2;
     --text-color-inactive: black;
     --text-color-active: white;
     --icons: rgb(18, 32, 87);
@@ -107,7 +107,7 @@ h1 {
     width: 250px;
     height: 250px;
     top: 80px;
-    right: 50px;
+    right: 25px;
     border: 5px solid black;
     background-color: rgb(48, 48, 48);
 }
@@ -116,7 +116,7 @@ h1 {
     width: 250px;
     height: 250px;
     top: 80px;
-    left: 50px;
+    left: 25px;
     border: 5px solid black;
     background-color: rgb(48, 48, 48);
 }

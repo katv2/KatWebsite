@@ -1,6 +1,6 @@
 :root{
-    --base-color: rgb(244, 234, 191);
-    --top-bar: rgb(237, 222, 163);
+    --base-color: #B3C8CF;
+    --top-bar: #89A8B2;
     --text-color-inactive: black;
     --text-color-active: white;
     --icons: rgb(18, 32, 87);
