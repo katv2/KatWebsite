@@ -130,3 +130,55 @@ h1 {
     border: 5px solid black;
     background-color: rgb(48, 48, 48);
 }
+.mlem{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    top: 350px;
+    left: 115px;
+    color: var(--text-color-inactive);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.idot{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    top: 350px;
+    left: 50%;
+    transform: translateX(-10%);
+    color: var(--text-color-inactive);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.wawa{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    top: 350px;
+    left: 83%;
+    transform: translateX(-10%);
+    color: var(--text-color-inactive);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.eye1{
+    position: absolute;
+    z-index: 2;
+    top: 135px;
+    left: 49%;
+    background: transparent;
+    color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.eye2{
+    position: absolute;
+    z-index: 2;
+    top: 140px;
+    left: 54%;
+    background: transparent;
+    color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
