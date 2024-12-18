@@ -18,7 +18,7 @@
 }
 ::-webkit-scrollbar {
     display: none;
-  }
+}
 body{
     background-color: var(--base-color);
     overflow: scroll;
@@ -28,67 +28,58 @@ body{
     width: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1;
-    font-size: 220%;
-    top: 16px;
-    left: 5.5%;
-    color:var(--text-color-active);
+    font-size: 2.2rem;
+    top: 1.35vh;
+    left: 5.1%;
+    color: var(--text-color-active);
     text-decoration: none;
 }
 .topbar {
     width: 95%;
-    top: 10px;
+    top: 1vh;
     left: 50%;
     transform: translateX(-50%);
-    height: 47px;
+    height: 4.5vh;
     margin: auto;
     position: absolute;
     color: black;
     background-color: var(--top-bar);
-    border: 6px solid var(--border);
-    border-radius: 15px;
+    border: 0.6vh solid var(--border);
+    border-radius: 1.5vh;
     z-index: 1;
 }
-.page2{
-    right: 100px;
-    width: 70px;
-    top: 26px;
-    height: 25px;
+.page2, .page3 {
+    width: 7vw;
+    top: 2.5vh;
+    height: 2.5vh;
     z-index: 2;
     margin: auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 2.5vh;
     text-decoration: none;
     position: absolute;
     transform: translateX(-50%);
     color: var(--text-color-inactive);
 }
-.page3{
-    right: 40px;
-    width: 70px;
-    top: 26px;
-    height: 25px;
-    z-index: 2;
-    margin: auto;
-    text-align: center;
-    font-size: 25px;
-    text-decoration: none;
-    position: absolute;
-    transform: translateX(-50%);
-    color: var(--text-color-inactive);
+.page2 {
+    right: 5vw;
 }
-#theme-switch{
-    height: 50;
-    width: 50;
+.page3 {
+    right: -1vw;
+}
+#theme-switch {
+    height: 3.7vh;
+    width: 3.7vh;
     padding: 0;
     border-radius: 50%;
     background-color: gray;
-    position:absolute;
+    position: absolute;
     z-index: 20;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 26px;
-    right: 2.7%;
+    top: 2.05vh;
+    right: 2.75%;
 }
 #theme-switch svg{
     fill: var(--icons);
@@ -105,11 +96,11 @@ body{
 h1 {
     position: absolute;
     width: auto;
-    top:-28px;
+    top: -2.8vh;
     left: 50%;
     transform: translateX(-50%);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 290%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.6rem;
     color: var(--text-color-inactive);
     z-index: 2;
 }
@@ -118,7 +109,7 @@ h1 {
     top: 0px;
     left: 50%;
     transform: translateX(-50%);
-    height: 95px;
+    height: 9.5vh;
     margin: auto;
     position: absolute;
     z-index: 0;
@@ -127,10 +118,10 @@ h1 {
 }
 .bottombar{
     width: 100%;
-    top: 1150px;
+    top: 115vh;
     left: 50%;
     transform: translateX(-50%);
-    height: 75px;
+    height: 7.5vh;
     margin: auto;
     position: absolute;
     color: black;
@@ -139,22 +130,22 @@ h1 {
 .imgbar1 {
     position: absolute;
     z-index: 2;
-    top: 15px;
-    left: 4.5vw;
+    top: 1.4vh;
+    left: 4.1%;
     background-color: var(--border);
-    height: 50px;
-    width: 15px;
+    height: 5vh;
+    width: 0.8vw;
     border-radius: 13px;
 }
 
 @media screen and (max-width: 768px) {
     .imgbar1 {
-        left: 6vw;
+        left: 5.1vw;
     }
 }
 
 @media screen and (max-width: 480px) {
     .imgbar1 {
-        left: 8vw;
+        left: 7.1vw;
     }
 }
