@@ -119,7 +119,7 @@ h1 {
 }
 .bottombar{
     width: 100%;
-    top: 115vh;
+    top: 1000px;
     left: 50%;
     transform: translateX(-50%);
     height: 7.5vh;
