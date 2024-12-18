@@ -136,14 +136,25 @@ h1 {
     color: black;
     background-color: var(--top-bar);
 }
-.imgbar1{
+.imgbar1 {
     position: absolute;
     z-index: 2;
     top: 15px;
-    left: 5.15%;
+    left: 4.5vw;
     background-color: var(--border);
     height: 50px;
     width: 15px;
     border-radius: 13px;
-    transform: translateX(-90%);
+}
+
+@media screen and (max-width: 768px) {
+    .imgbar1 {
+        left: 6vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .imgbar1 {
+        left: 8vw;
+    }
 }
